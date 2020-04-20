@@ -84,11 +84,11 @@ header {
 	font-family: 'Barlow';
 	font-style: normal;
 	background-color: rgba(255, 255, 255, 0.4);
-	border-radius: 2px;
-	padding-left: 5px;
-	padding-right: 5px;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	padding-bottom: 3px;
-	box-shadow: 1px 1px 2px black;
+	box-shadow: 1px 1px 1px #4a4a4a;
 }
 
 section {
@@ -165,7 +165,7 @@ h1 {
   font-size: 4em;
   margin-left: 98px;
   padding-top: 20px;
-  color: white;
+  color: #ffffffa6;
 }
 
 h2 {
