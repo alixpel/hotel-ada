@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+			<link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap" rel="stylesheet">
+
+			<script src="https://kit.fontawesome.com/030bc59c7c.js" crossorigin="anonymous"></script>
+			<link rel="icon" href="assets/photos/favicon.ico" type="image/x-icon">
+
+
+		<title>Ada Hotel</title>
+	</head>
+	<body>
+
+		<header>
+
+				<h1>Réservations</h1>
+
+					<nav>
+						<ul class="summary">
+							<li><a class="pages" href="index.html">Accueil</a></li>
+							<li><a class="pages" href="chambres.html">Chambres</a></li>
+							<li><a class="pages" href="reservation.html">Réservation</a></li>
+							<li><a class="pages" href="quartier.html">Quartier</a></li>
+							<li><a class="pages" href="service.html">Service</a></li>
+							<li><a class="pages" href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+
+		</header>
+
+		<section class="reservationForm">
+			<form>
+				<fieldset>
+					<h2>Vos coordonnées</h2>
+						
+							<ul>
+								<li><label>Prénom : </label><input type="text" name="prénom" value=""></li>
+								<li><label>Nom : </label><input type="text" name="nom" value=""></li>
+
+								<li><label for="woman">Femme </label><input type="radio" name="gender" value="femme" id="woman">
+								<label for="man">Homme </label><input type="radio" name="gender" value="homme" id="man">
+								<label for="nonbinaire">Non-binaire </label><input type="radio" name="gender" value="nonbinaire" id="nonbinaire"></li>
+
+								<li><label>E-mail : </label><input type="email" name="" value=""></li>
+								<li><label>Téléphone : </label><input type="tel" name="" value=""></li>
+
+								<li><label>Copie de votre carte d'identité ou passeport : </label><input type="file" name="" value=""></li>
+
+								<li><label>Commentaire : </label></br><textarea name="name" rows="2" cols="100" placeholder="texte"></textarea></li>
+
+								<li><h3>Carte de fidélité :</h3>
+									<label for="oui">Oui </label><input type="radio" name="carte" value="oui" id="oui">
+									<label>Numéro : </label><input type="text" name="numero" value=""></br>
+									<label for="non">Non </label><input type="radio" name="carte" value="oui" id="non"></li>
+								<li><h3>Code promo :</h3>
+									<label for="oui">Oui </label><input type="radio" name="code" value="oui" id="oui">
+									<label>Numéro : </label><input type="text" name="numero" value=""></br>
+									<label for="non">Non </label><input type="radio" name="code" value="oui" id="non">
+								</li>
+							</ul>
+							<p><a href="#" class="myButton">Valider</a></p>
+					</fieldset>
+
+					<fieldset>
+						<h2>Votre séjour</h2>
+							<ul>
+								<li><label>Date d'arrivée : </label><input type="date" name="date" value=""></li>
+								<li><label>Adultes : </label><input type="number" name="adultes" value=""></li>
+								<li><label>Enfants de moins de 12 ans : </label><input type="number" name="enfants" value=""></li>
+								<li><label>Nombre de nuitées : </label><input type="number" name="nombredenuitees" value=""></li>
+								<li><h3>Animal de compagnie :</h3>
+								<input type="checkbox" name="animaldecompagnie" value="chat"><label> chat</label>
+								<input type="checkbox" name="animaldecompagnie" value="chien"><label> chien</label>
+								<input type="checkbox" name="animaldecompagnie" value="rongeur"><label> rongeur</label></li>
+								<li><h3>Choix de chambre :</h3>
+								<select class="" name="">
+									<option value="">Chambre 1</option>
+									<option value="">Chambre 2</option>
+									<option value="">Chambre 3</option>
+								</select></li>
+							</ul>
+
+							<p><a href="#" class="myButton">Vérifier la disponibilité</a></p>
+						</fieldset>
+
+						<fieldset>
+						<h2>Paiement</h2>
+
+							<ul>
+								<li>
+									<h3>Informations CB</h3>
+									<legend>Type de carte bancaire</legend>
+									<ol>
+										<li><input id=visa name=type_de_carte type=radio><label for=visa>VISA</label></li>
+										<li><input id=amex name=type_de_carte type=radio><label for=amex>AmEx</label></li>
+										<li><input id=mastercard name=type_de_carte type=radio><label for=mastercard>Mastercard</label></li>
+									</ol>
+								</li>
+								<li><label for=numero_de_carte : >N° de carte : </label><input id=numero_de_carte name=numero_de_carte type=number required></li>
+								<li><label for=date_de_validite>Date de validité : </label><input type="month" name="start" min="2020-03" value="2022-05"></li>
+								<li><label for=securite>Code sécurité : </label><input id=securite name=securite type=number placeholder="3 chiffres au dos" required></li>
+								<li><label for=nom_porteur>Nom du porteur : </label><input id=nom_porteur name=nom_porteur type=text placeholder="Même nom que sur la carte"></li>
+							</ul>
+							<p><a href="#" class="myButton">Je valide le règlement de mon séjour</a></p>
+						</fieldset>
+					</form>
+				<br>
+				<p><a href="assets/photos/adacode.jpg" target="_blank"><img src="assets/photos/adacode_mini.jpg" id="adacode" title="adacode" alt="adacode" /></a></p>
+
+		</section>
+
+		<footer>
+			<p>© 2020 Ada Hotel Services.
+			All Rights Reserved.</p>
+			<p>Ada SPA</p>
+
+		</footer>
+
+
+	</body>
+</html>
