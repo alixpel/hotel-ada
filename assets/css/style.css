@@ -67,6 +67,7 @@ table {
 body
 {
   background-color: rgb(240, 240, 240);
+	color: rgb(40, 40, 40);
 }
 
 /* HEADER VALABLE POUR CHAQUE PAGE */
@@ -132,11 +133,6 @@ section {
 
 }
 
-.tourism
-{
-	margin-left: 30px;
-}
-
 .adapastel {
   margin: auto;
 	margin-top: 2rem;
@@ -146,6 +142,11 @@ section {
 .quartier
 {
   background-image: url("../images/gambetta.jpg");
+}
+
+.tourism-links {
+	margin: auto;
+	margin-top: 1.6rem;
 }
 
 /* contact */
@@ -209,6 +210,10 @@ h3 {
   font-size: 1.2em;
 }
 
+h3.tourism {
+	text-align: center;
+}
+
 /* TEXT */
 
 p
@@ -249,6 +254,10 @@ a {
 
 a:visited {
   color: black;
+}
+
+a:hover {
+	color: grey;
 }
 
 .telephone, .email {
