@@ -64,8 +64,7 @@ table {
 
 /* SECTIONS */
 
-body
-{
+body {
   background-color: rgb(240, 240, 240);
 	color: rgb(40, 40, 40);
 }
@@ -172,14 +171,14 @@ section {
 	 border: 1px solid grey;
  }
 
-footer
-{
+footer {
   background-image: url("../photos/chienbanniere.jpg");
   background-repeat: no-repeat;
   padding-left: 50px;
   padding-bottom: 50px;
   padding-top: 50px;
   margin-top: 30px;
+	height: 7rem;
 }
 
 /* TITLES */
@@ -215,16 +214,14 @@ h3.tourism {
 
 /* TEXT */
 
-p
-{
+p {
   font-style: normal;
   font-size: 0.9em;
   font-family: sans-serif;
   line-height: 1.45em;
 }
 
-p.contact
-{
+p.contact {
   text-align: center;
 }
 
@@ -232,13 +229,11 @@ p.center {
 	text-align: center;
 }
 
-ul
-{
+ul {
   list-style-type: none;
 }
 
-li
-{
+li {
   padding: 0px 20px 20px 0px;
   margin: auto;
   font-family: 'Barlow'
@@ -338,16 +333,16 @@ form {
 }
 
 table {
-    border-collapse: collapse;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 30px;
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 td, th {
-    border: 1px solid black;
-		background-color: rgb(225,225,225);
-		padding: 37px;
+  border: 1px solid black;
+	background-color: rgb(225,225,225);
+	padding: 37px;
 }
 
 td {
